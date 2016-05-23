@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "devDependencies": {
+    "autoprefixer-core": "*",
+    "browser-sync": "*",
+    "del": "*",
+    "gulp": "*",
+    "gulp-cache": "*",
+    "gulp-if": "*",
+    "gulp-imagemin": "*",
+    "gulp-jshint": "*",
+    "gulp-load-plugins": "*",
+    "gulp-minify-css": "*",
+    "gulp-postcss": "*",
+    "gulp-sass": "*",
+    "gulp-shell": "*",
+    "gulp-size": "*",
+    "gulp-sourcemaps": "*",
+    "jshint": "*",
+    "jshint-stylish": "*",
+    "vinyl-paths": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "main-bower-files": "*"
+  }
+}
