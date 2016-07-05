@@ -1,8 +1,8 @@
 {
   "name": "generator-marionettor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "project stack from thomas alves machado",
-  "homepage": "",
+  "homepage": "https://github.com/mrichard/generator-marionette",
   "author": {
     "name": "thomas alves machado",
     "email": "t.alvesmachado@gmail.com",
