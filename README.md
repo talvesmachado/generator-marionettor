@@ -2,6 +2,10 @@
 
 > Yeoman generator for Backbone / Marionette / Require projects. If (play_with_webbGL){ return "It comes with 3d Babylon implementation" };
 
+## INFORMATION
+
+The generator is under developement but you can already use it.
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-marionettor using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
@@ -15,6 +19,37 @@ Then generate your new project:
 
 ```bash
 yo marionettor
+```
+
+The project is generated with a router, a view and the event mechanism (wreqr).
+
+## Generate a view
+
+```bash
+yo marionettor:view
+```
+
+## Generate a model
+
+```bash
+yo marionettor:model
+```
+
+## Generate a collection
+
+```bash
+yo marionettor:collection
+```
+
+## Generate a mesh
+
+```bash
+yo marionettor:mesh
+```
+## Generate a camera
+
+```bash
+yo marionettor:camera
 ```
 
 ## Getting To Know Yeoman
