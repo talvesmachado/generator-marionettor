@@ -82,9 +82,18 @@ module.exports = yeoman.Base.extend({
       }
     );
     // Views JS
-    this.fs.copy(
+    this.fs.copyTpl(
       this.templatePath('_app/_scripts/_views/_homepage.js'),
-      this.destinationPath('app/scripts/views/homepage.js')
+      this.destinationPath('app/scripts/views/homepage.js'), {
+        is3d: this.props.is3d
+      }
+    );
+    // ROUTER
+    this.fs.copyTpl(
+      this.templatePath('_app/_scripts/_routers/_router.js'),
+      this.destinationPath('app/scripts/routers/router.js'), {
+        is3d: this.props.is3d
+      }
     );
     // TEMPLATES
     this.fs.copy(
@@ -106,6 +115,35 @@ module.exports = yeoman.Base.extend({
         this.destinationPath('app/scripts/3d/world.js')
       );
     };
+
+    // TESTS
+    this.fs.copyTpl(
+      this.templatePath('_test/_index.html'),
+      this.destinationPath('test/index.html'), {
+        name: this.props.name
+      }
+    );
+    this.fs.copyTpl(
+      this.templatePath('_test/_SpecRunner.js'),
+      this.destinationPath('test/SpecRunner.js'), {
+        name: this.props.name,
+        is3d: this.props.is3d
+      }
+    );
+
+    this.fs.copy(
+      this.templatePath('_test/_spec/_testSuite.js'),
+      this.destinationPath('test/spec/testSuite.js')
+    );
+    this.fs.copy(
+      this.templatePath('_test/_spec/_test.js'),
+      this.destinationPath('test/spec/test.js')
+    );
+    this.fs.copy(
+      this.templatePath('_test/_spec/_views/_homepage.js'),
+      this.destinationPath('test/spec/views/homepage.js')
+    );
+
 
   },
 

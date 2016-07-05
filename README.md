@@ -1,5 +1,6 @@
-# generator-marionettor [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> project stack from thomas alves machado
+# generator-marionettor
+
+> Yeoman generator for Backbone / Marionette / Require projects. If (play_with_webbGL){ return "It comes with 3d Babylon implementation" };
 
 ## Installation
 

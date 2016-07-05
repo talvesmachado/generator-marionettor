@@ -35,7 +35,7 @@ require.config({
     text: '../../bower_components/requirejs-text/text',
     tmpl: 'templates'
     <% if (is3d) { %>,
-    babylonjs: '../../bower_components/babylonjs/dist/babylon.2.3'
+    babylonjs: '../../bower_components/babylonjs/dist/babylon.2.4'
     <% } %>
   }
 });

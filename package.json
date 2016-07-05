@@ -5,7 +5,7 @@
   "homepage": "",
   "author": {
     "name": "thomas alves machado",
-    "email": "t.alvesmachado@rappfrance.com",
+    "email": "t.alvesmachado@gmail.com",
     "url": ""
   },
   "files": [
@@ -19,9 +19,15 @@
     "yeoman-generator"
   ],
   "dependencies": {
-    "yeoman-generator": "^0.23.0",
     "chalk": "^1.0.0",
+    "lodash": "^4.13.1",
+    "walker": "^1.0.7",
+    "yeoman-generator": "^0.23.0",
     "yosay": "^1.0.0"
+  },
+  "peerDependencies": {
+    "generator-mocha": "^0.3.0",
+    "generator-backbone-mocha": "^0.3.0"
   },
   "devDependencies": {
     "yeoman-test": "^1.0.0",
