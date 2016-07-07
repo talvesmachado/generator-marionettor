@@ -1,7 +1,7 @@
 {
   "name": "generator-marionettor",
   "version": "0.0.1",
-  "description": "project stack from thomas alves machado",
+  "description": "Yeoman generator for Backbone / Marionette / Require + 3D babylon.js ~ project stack from thomas alves machado",
   "homepage": "https://github.com/mrichard/generator-marionette",
   "author": {
     "name": "thomas alves machado",
